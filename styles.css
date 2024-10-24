@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+a {
+    color: #5cb85c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.figure-icon {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.figure-icon:hover {
+    transform: scale(1.1);
+}
+
+.img-fluid {
+    width: 100px; /* Ajusta el tamaño del icono */
+    height: auto; /* Mantiene la proporción */
+}
+/* Estilo para hacer que los inputs sean más estrechos */
+input[type="number"] {
+    max-width: 300px; /* Ancho máximo de los inputs */
+    margin: 0 auto; /* Centra los inputs */
+}
+
+/* Opcional: Estilo para centrar el formulario en la página */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Margen superior opcional */
+}
+
